@@ -1,18 +1,11 @@
-import React, { useState } from 'react';
+
 
 
 const ImageButton = () => {
-  const [selectedImage, setSelectedImage] = useState(null);
+ 
 
-  const images = [
-    'https://dax.co.il/wp-content/uploads/2020/06/derby.jpg',
-    'https://dax.co.il/wp-content/uploads/2022/05/cupido0360.jpg',
-    'https://dax.co.il/wp-content/uploads/2018/06/13-1.jpg'
-  ];
 
-  const handleImageClick = (image) => {
-    setSelectedImage(image);
-  };
+
 
   return (
     <div className='imagesBox'>
